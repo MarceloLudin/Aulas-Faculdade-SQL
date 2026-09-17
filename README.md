@@ -1,90 +1,54 @@
-# 📚 Projeto SQL - Banco de Dados de Funcionários
+# 🗄️ Exercícios de SQL
 
-Projeto desenvolvido durante as aulas de **Banco de Dados**, utilizando **PostgreSQL** e **pgAdmin**.
+Repositório criado para registrar meus exercícios, atividades e minha evolução durante os estudos de **SQL e Banco de Dados**.
 
-O objetivo do projeto é praticar a criação de tabelas, relacionamentos entre tabelas, inserção de dados e consultas SQL utilizando `JOIN`, `WHERE` e `ORDER BY`.
+## 📚 Sobre
 
----
+Aqui estão os exercícios desenvolvidos durante as aulas de Banco de Dados, com o objetivo de praticar os principais conceitos de SQL e aprender a trabalhar com bancos de dados relacionais.
 
-## 🗄️ Tecnologias utilizadas
+Os arquivos deste repositório reúnem atividades realizadas em diferentes aulas e exercícios práticos.
+
+## 📝 Conteúdos estudados
+
+- Criação de bancos de dados
+- Criação de tabelas
+- Tipos de dados
+- `CREATE TABLE`
+- `INSERT INTO`
+- `SELECT`
+- `UPDATE`
+- `DELETE`
+- Chaves primárias (`PRIMARY KEY`)
+- Chaves estrangeiras (`FOREIGN KEY`)
+- Relacionamento entre tabelas
+- `ALTER TABLE`
+- `WHERE`
+- `LIKE` e `ILIKE`
+- `ORDER BY`
+- `ASC` e `DESC`
+- `INNER JOIN`
+- Consultas com várias tabelas
+- `AND` e `OR`
+- `BETWEEN`
+- `CASCADE` e `RESTRICT`
+- `SERIAL`
+- `NUMERIC`
+- Outros conceitos de SQL e Banco de Dados
+
+## 🛠️ Tecnologias utilizadas
 
 - PostgreSQL
 - pgAdmin
 - SQL
 
----
+## 🎯 Objetivo
 
-## 📋 Estrutura do Banco de Dados
+Registrar minha evolução nos estudos de **SQL e Banco de Dados**, praticando os conteúdos apresentados nas aulas por meio de exercícios e projetos práticos.
 
-O banco de dados possui quatro tabelas principais:
+## 👨‍💻 Autor
 
-### 👔 Cargo
-
-Armazena os cargos e seus respectivos salários-base.
-
-Exemplos:
-
-- Estagiário
-- Gerente
-- Supervisor
-- Encarregado
-- Auxiliar
-
-### 🏙️ Cidade
-
-Armazena as cidades onde os funcionários residem.
-
-Exemplos:
-
-- Mogi das Cruzes
-- São Paulo
-- Campinas
-- São José dos Campos
-
-### 🏢 Departamento
-
-Armazena os departamentos da empresa.
-
-Exemplos:
-
-- Vendas
-- Compras
-- PCP
-- Produção
-
-### 👨‍💼 Funcionário
-
-Armazena os funcionários e suas informações, como:
-
-- Código
-- Nome
-- Telefone
-- Salário
-- Cargo
-- Cidade
-- Departamento
-- Gerente
+**Marcelo Ludin**
 
 ---
 
-## 🔗 Relacionamentos
-
-A tabela `Funcionario` possui relacionamentos com outras tabelas através de chaves estrangeiras.
-
-```text
-Cargo
-  │
-  └──→ Funcionario
-
-Cidade
-  │
-  └──→ Funcionario
-
-Departamento
-  │
-  └──→ Funcionario
-
-Funcionario
-  │
-  └──→ Funcionario
-       (Gerente)
+📌 Repositório para fins de estudo e aprendizado.
